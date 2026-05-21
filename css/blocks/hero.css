@@ -1,0 +1,45 @@
+.hero {
+  background-color: rgba(222, 236, 221, 0.8);
+  padding: 105px 0;
+  margin: 0 0 60px;
+  min-height: calc(100vh - 188px);
+  display: flex;
+  align-items: center;
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 640px;
+  gap: 55px;
+  align-items: center;
+}
+
+.hero__text {
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #475009;
+  margin: 0 0 40px 0;
+  letter-spacing: -0.05em;
+}
+
+.hero__slogan {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 50px 0;
+  color: #475009;
+}
+
+.hero__gallery-list {
+  display: grid;
+  grid-template-columns: 305px 300px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 50px 35px;
+}
+
+.hero__gallery-item--size-xl {
+  grid-row: span 2;
+}
+
